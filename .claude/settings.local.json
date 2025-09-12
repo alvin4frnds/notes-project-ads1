@@ -5,7 +5,18 @@
       "Bash(git commit:*)",
       "Bash(git config:*)",
       "Bash(git push:*)",
-      "Bash(git remote set-url:*)"
+      "Bash(git remote set-url:*)",
+      "Bash(mkdir:*)",
+      "Bash(composer create-project:*)",
+      "Bash(curl:*)",
+      "Bash(wget:*)",
+      "Bash(chmod:*)",
+      "Bash(sudo mv:*)",
+      "Bash(sudo chmod:*)",
+      "Bash(php:*)",
+      "Bash(sudo apt:*)",
+      "Bash(sudo apt install:*)",
+      "Bash(cd:*)"
     ],
     "deny": [],
     "ask": []
