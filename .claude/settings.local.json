@@ -16,7 +16,10 @@
       "Bash(php:*)",
       "Bash(sudo apt:*)",
       "Bash(sudo apt install:*)",
-      "Bash(cd:*)"
+      "Bash(cd:*)",
+      "Read(//mnt/c/Users/Praveen/**)",
+      "Bash(rm:*)",
+      "Bash(git add:*)"
     ],
     "deny": [],
     "ask": []

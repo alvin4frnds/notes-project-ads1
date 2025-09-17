@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1f41dcd601ef36df5c0a6eed64662c47",
+    "content-hash": "17ef020748bd6c1ce1d4eea019d89824",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -683,6 +683,51 @@
                 }
             ],
             "time": "2023-10-12T05:21:21+00:00"
+        },
+        {
+            "name": "googleads/googleads-php-lib",
+            "version": "10.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/googleads/googleads-php-lib.git",
+                "reference": "c358f2998bca7c08cc25359692dfd3098de6af9d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/googleads/googleads-php-lib/zipball/c358f2998bca7c08cc25359692dfd3098de6af9d",
+                "reference": "c358f2998bca7c08cc25359692dfd3098de6af9d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/Google/Api/Ads/AdWords/Lib",
+                    "src/Google/Api/Ads/Dfp/Lib"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "include-path": [
+                "src/"
+            ],
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Google",
+                    "homepage": "https://github.com/googleads/googleads-php-lib/contributors"
+                }
+            ],
+            "description": "Google Ads APIs Client Library for PHP (AdWords and DFP)",
+            "homepage": "https://github.com/googleads/googleads-php-lib",
+            "support": {
+                "issues": "https://github.com/googleads/googleads-php-lib/issues",
+                "source": "https://github.com/googleads/googleads-php-lib/tree/10.1.0"
+            },
+            "time": "2016-07-29T15:13:58+00:00"
         },
         {
             "name": "graham-campbell/result-type",
