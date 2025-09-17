@@ -2,3 +2,8 @@
 exports
 .idea
 code/backend/.github
+
+# Service account keys and credentials
+*.json
+!code/backend/composer.json
+!package.json
